@@ -1,6 +1,6 @@
 general:
   artifacts:
-    - "~/"
+    - "~/circleci_demo/log/"
 
 deployment:
   production:
