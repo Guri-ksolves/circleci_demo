@@ -1,3 +1,7 @@
+general:
+  artifacts:
+    - "~/"
+
 deployment:
   production:
     branch: master
