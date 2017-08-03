@@ -6,8 +6,17 @@ general:
   artifacts:
     - "~/circleci_demo/log/"
 
+test:
+  pre
+  post
+  override: echo "qwert"
+
+
+
 deployment:
   production:
     branch: master
-    heroku:
-      appname: circleci-demo-app
+    # heroku:
+    #   appname: circleci-demo-app
+    commands:
+      - ssh ...
